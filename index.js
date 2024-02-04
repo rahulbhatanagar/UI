@@ -69,7 +69,7 @@ function getMousePoints(){
         area.style.backgroundColor = 'white';
         tagP.textContent = 'Hi'
         tagP.addEventListener('click',()=>{
-            tagP.remove();
+            tagP.textContent =''
         })
     })
 }
