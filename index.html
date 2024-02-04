@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Web
+        </title>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <br>
+            Header
+        </header>
+        <div class="parent">
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="dev(0,'./home.jpeg')">Home</a></li>
+                    <li><a href="#" onclick="dev(1,'./profile.jpeg')">Profile</a></li>
+                    <li><a href="#" onclick="dev(2,'./contactus.jpeg')">Contact</a></li>
+                    <li><a href="#">Please Help</a></li>
+                </ul>
+            </nav>
+            <div id="content">
+                <img src="./nature.jpg"/>
+            </div>
+            <div id="side">
+                <h2 style="margin: 72px;">News</h2>
+                <div id="line"></div>
+                <h2 style="margin: 72px;">Trendings</h2>
+            </div>
+            <div id="clicked">
+            </div>
+        </div>
+        <p id="display" style="text-align: center;">Hi</p>
+        <canvas id="draw" width="1000px" height="100px" onclick="getMousePoints()"
+        style="border: 2px solid; margin-left: 210px;">
+        </canvas>
+        <script src="./index.js"></script>
+    </body>
+</html>
